@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar{
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-size:x-large
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.updateInput{
+    border-radius: 20px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+}
+
+.Pagination{
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Pagination > span{
+
+    padding: 10px 9px;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selectedPagination{
+    background-color: #d2e0e7;
+}
+
+.pageinationDisable{
+    opacity: 0;
+}
+
+.checkbox{
+    height: 15px;
+    width: 15px;
+}
+
+.checkboxx{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.selectedAllData{
+    height: 20px;
+    width: 20px;
+}
+
+.checkedColumn{
+    background-color: #8e9fa8;
+}
+
+.deleteSelected{
+    display: inline-block;
+    color:red;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.selectDeleteDiv{
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 100px;
+    width: 150px;
+    margin-top: 10px;
+    justify-content: space-between;    
+    cursor: pointer;
+}
+
+.deleteSelectedDiv{
+    padding: 8px;
+    background-color: #d2e0e7;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 100px;
+    width: 150px;
+    margin-top: 10px;
+    justify-content: space-between;    
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+    background-color: blue;
+}
